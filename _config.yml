@@ -17,6 +17,7 @@ markdown: kramdown
 highlighter: rouge
 
 sass:
+  sass_dir: _sass
   # loading path from site root
   # default to _sass
   # sass_dir: bower_components
