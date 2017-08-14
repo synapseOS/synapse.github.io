@@ -1,0 +1,16 @@
+/* Background Photo 
+Pattern from www.subtlepatterns.com */
+body { 
+    background: url(/img/skewed_print.png) repeat 0 0;
+}
+
+/*homepage font styling */
+.home {
+    font-family: 'Poiret One', cursive;
+    h1 {
+    	font-size: 20vw;
+    	font-weight: 800;
+    	text-align: center;
+    	color: #00CE95;
+    }
+}
