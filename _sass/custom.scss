@@ -1,7 +1,11 @@
-/* Background Photo
-Pattern from www.subtlepatterns.com */
+
+/*basic styling */
 body {
-    background: url(/img/skewed_print.png) repeat 0 0;
+  h1,h2,h3,h4,h5,h6,p,ul,li {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+  }
+  background-color: #2a2e43 !important;
 }
 
 /*homepage font styling */
@@ -15,6 +19,54 @@ body {
     }
 }
 
+.blog{
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+.default {
+  h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 20vw;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  }
+}
+
+.post {
+  h1,p {
+    font-family: 'Montserrat', sans-serif;
+    color: #2a2e43;
+  }
+  h1{
+    font-weight: bold;
+  }
+}
+
 .customForm {
   margin: auto;
+}
+
+/*Navbar Styling*/
+.navbar-brand{
+   font-weight: bold;
+   p{
+   font-size:24px;
+   font-family: 'Montserrat Subrayada', sans-serif;
+   white-space: nowrap;
+   }
+}
+
+// Shrinks logo in navbar for narrow viewports
+@media (max-width: 360px) {
+  .navbar-brand{
+    p{
+      font-size: 18px;
+    }
+  }
 }
