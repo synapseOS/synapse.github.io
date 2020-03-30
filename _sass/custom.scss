@@ -26,6 +26,10 @@ body {
     text-transform: uppercase;
   }
 
+  a {
+    color: #FFFFFF;
+  }
+
 .default {
   h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
@@ -52,6 +56,59 @@ body {
   margin: auto;
 }
 
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  text-align: center;
+  a,a:visited{
+    color: #ffffff;
+  }
+  a:link,a:hover,a:visited,a:active{
+    text-decoration: none
+  }
+  a:hover{
+    color: #353a50;
+  }
+}
+
+.footer_home {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  .social_icons{
+    text-align: right;
+  }
+  .nav{
+    text-align: left;
+  }
+  a:link,a:visited{
+    color: #ffffff;
+  }
+  a:link,a:hover,a:visited,a:active{
+    text-decoration: none
+  }
+  a:hover{
+    color: #353a50;
+  }
+}
+
+.navbar a{
+   color: white;
+   opacity: 1;
+}
+.myNavbar {
+  a:link{
+    color: #2a2e43;
+  }
+}
+
+
 /*Navbar Styling*/
 .navbar-brand{
    font-weight: bold;
@@ -67,6 +124,20 @@ body {
   .navbar-brand{
     p{
       font-size: 18px;
+    }
+  }
+}
+
+/* Styling for navbar active menu item */
+.navbar{
+  .navbar-nav{
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: darken(darken(#428bca, 6.5%), 15%);
+        background-color: #f8f8f8;
+      }
     }
   }
 }
